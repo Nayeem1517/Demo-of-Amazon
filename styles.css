@@ -97,3 +97,34 @@ gap: 2px;
     font-weight: 700;
   margin-top: 15px;
 }
+/* Panel Section */
+
+.panel{
+height: 40px;
+background-color: #222f3d;
+display: flex;
+color: white;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+.panell-all{
+display: flex;
+flex-direction: row-reverse;
+gap: 5px;
+}
+
+
+
+.panel-option p{
+    width: 70%;
+display: inline;
+margin-left: 16px;
+font-size: 0.85rem;
+font-weight: 700;
+}
+.panel-deals{
+font-size: 0.95rem;
+font-weight: 700;
+}
