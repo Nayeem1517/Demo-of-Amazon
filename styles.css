@@ -152,3 +152,61 @@ font-weight: 700;
     text-decoration: none;
     color: red;
 }
+
+/* Shop-sectiob Styling  */
+.Shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+   height: 400px;
+   width:23% ;
+   background-color: white;
+   margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}
+.box-content p{
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+.footer-panel1{
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    height: 25px;
+}
+.foot-panel2{
+   background-color: #222f3d;
+   color: white;
+   height: 300px; 
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 5px;
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: aquamarine;
+    text-decoration: none;
+}
